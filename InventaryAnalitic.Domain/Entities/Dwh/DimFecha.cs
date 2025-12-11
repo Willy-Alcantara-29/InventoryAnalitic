@@ -1,8 +1,13 @@
-﻿namespace InventaryAnalitic.Domain.Entities.Dwh
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace InventaryAnalitic.Domain.Entities.Dwh
 {
+    [Table("Dim_Fecha")]
     public class DimFecha
     {
+        [Column("ID_Fecha")]
         public int ID_Fecha { get; set; } // YYYYMMDD
+        
         public DateTime FechaCompleta { get; set; }
         public int Anio { get; set; }
         public int Trimestre { get; set; }

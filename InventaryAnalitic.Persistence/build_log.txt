@@ -1,0 +1,14 @@
+﻿  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos est├ín actualizados para la restauraci├│n.
+  InventaryAnalitic.Domain -> C:\Users\awill\Documents\InventoryAnalitic\InventaryAnalitic.Domain\bin\Debug\net8.0\InventaryAnalitic.Domain.dll
+C:\Users\awill\Documents\InventoryAnalitic\InventaryAnalitic.Persistence\Repositories\Csv\CsvVentaRepository.cs(9,39): error CS0535: 'CsvVentaRepository' no implementa el miembro de interfaz 'IVentaRepository.GetByDateRangeAsync(DateTime, DateTime)' [C:\Users\awill\Documents\InventoryAnalitic\InventaryAnalitic.Persistence\InventaryAnalitic.Persistence.csproj]
+C:\Users\awill\Documents\InventoryAnalitic\InventaryAnalitic.Persistence\Repositories\Csv\CsvVentaRepository.cs(9,39): error CS0535: 'CsvVentaRepository' no implementa el miembro de interfaz 'IVentaRepository.AddAsync(Venta)' [C:\Users\awill\Documents\InventoryAnalitic\InventaryAnalitic.Persistence\InventaryAnalitic.Persistence.csproj]
+
+ERROR al compilar.
+
+C:\Users\awill\Documents\InventoryAnalitic\InventaryAnalitic.Persistence\Repositories\Csv\CsvVentaRepository.cs(9,39): error CS0535: 'CsvVentaRepository' no implementa el miembro de interfaz 'IVentaRepository.GetByDateRangeAsync(DateTime, DateTime)' [C:\Users\awill\Documents\InventoryAnalitic\InventaryAnalitic.Persistence\InventaryAnalitic.Persistence.csproj]
+C:\Users\awill\Documents\InventoryAnalitic\InventaryAnalitic.Persistence\Repositories\Csv\CsvVentaRepository.cs(9,39): error CS0535: 'CsvVentaRepository' no implementa el miembro de interfaz 'IVentaRepository.AddAsync(Venta)' [C:\Users\awill\Documents\InventoryAnalitic\InventaryAnalitic.Persistence\InventaryAnalitic.Persistence.csproj]
+    0 Advertencia(s)
+    2 Errores
+
+Tiempo transcurrido 00:00:03.52
